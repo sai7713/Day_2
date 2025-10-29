@@ -13,7 +13,7 @@ RUN python3 -m venv venv1 && \
 source venv1/bin/activate && \
 pip install --no-cache-dir -r requirements.txt
 
-EXPOSE 8000
+EXPOSE 80
 
 CMD source venv1/bin/activate && python3 manage.py runserver 127.0.0.1:80
 
