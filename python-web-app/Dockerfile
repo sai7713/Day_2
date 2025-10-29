@@ -1,4 +1,5 @@
-FROM ubuntu WORKDIR /app 
+FROM ubuntu 
+WORKDIR /app 
 
 COPY requirements.txt /app 
 COPY devops /app 
